@@ -13,7 +13,7 @@ $EM_CONF[$_EXTKEY] = array (
   'description' => 'French (fr) language pack for the Static Info Tables providing localized names for countries, currencies and so on.',
   'category' => 'misc',
   'shy' => 0,
-  'version' => '6.1.0',
+  'version' => '6.2.0-dev',
   'priority' => '',
   'loadOrder' => '',
   'module' => '',
@@ -28,17 +28,17 @@ $EM_CONF[$_EXTKEY] = array (
   'author_company' => 'Cobweb',
   'CGLcompliance' => '',
   'CGLcompliance_note' => '',
-  'constraints' => 
+  'constraints' =>
   array (
-    'depends' => 
+    'depends' =>
     array (
       'static_info_tables' => '6.3.4-0.0.0',
-      'typo3' => '6.2.0-7.9.99',
+      'typo3' => '6.2.0-8.9.99',
     ),
-    'conflicts' => 
+    'conflicts' =>
     array (
     ),
-    'suggests' => 
+    'suggests' =>
     array (
     ),
   ),
@@ -46,5 +46,3 @@ $EM_CONF[$_EXTKEY] = array (
   'comment' => 'Verified compatibility with TYPO3 CMS 7; updated for recent versions of static_info_tables.',
   'user' => 'francois',
 );
-
-?>
